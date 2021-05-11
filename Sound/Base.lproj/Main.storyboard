@@ -19,7 +19,8 @@
                                 <rect key="frame" x="107" y="348" width="200" height="200"/>
                                 <state key="normal" image="drumImage"/>
                                 <connections>
-                                    <action selector="tapDrumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="9lS-Nx-xKZ"/>
+                                    <action selector="touchDownDrumButton" destination="BYZ-38-t0r" eventType="touchDown" id="E4D-e6-BkX"/>
+                                    <action selector="touchUpDrumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="o45-nW-Wgo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -30,10 +31,13 @@
                             <constraint firstItem="ByS-f9-kiZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xcz-ap-3Iz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="drumButton" destination="ByS-f9-kiZ" id="L1K-s5-3Do"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="80"/>
+            <point key="canvasLocation" x="112" y="189"/>
         </scene>
     </scenes>
     <resources>
