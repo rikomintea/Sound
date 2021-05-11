@@ -13,6 +13,7 @@
 		CEB7C25A264A77BD00BC1354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C258264A77BD00BC1354 /* Main.storyboard */; };
 		CEB7C25C264A77BF00BC1354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C25B264A77BF00BC1354 /* Assets.xcassets */; };
 		CEB7C25F264A77BF00BC1354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C25D264A77BF00BC1354 /* LaunchScreen.storyboard */; };
+		CEB7C267264A9E9000BC1354 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7C266264A9E9000BC1354 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEB7C25B264A77BF00BC1354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB7C25E264A77BF00BC1354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB7C260264A77BF00BC1354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7C266264A9E9000BC1354 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CEB7C25B264A77BF00BC1354 /* Assets.xcassets */,
 				CEB7C25D264A77BF00BC1354 /* LaunchScreen.storyboard */,
 				CEB7C260264A77BF00BC1354 /* Info.plist */,
+				CEB7C266264A9E9000BC1354 /* icon.png */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB7C267264A9E9000BC1354 /* icon.png in Resources */,
 				CEB7C25F264A77BF00BC1354 /* LaunchScreen.storyboard in Resources */,
 				CEB7C25C264A77BF00BC1354 /* Assets.xcassets in Resources */,
 				CEB7C25A264A77BD00BC1354 /* Main.storyboard in Resources */,
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ3MC6PFP6;
 				INFOPLIST_FILE = Sound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RQ3MC6PFP6;
 				INFOPLIST_FILE = Sound/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
